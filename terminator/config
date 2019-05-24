@@ -1,0 +1,262 @@
+[global_config]
+  inactive_color_offset = 1.0
+  tab_position = hidden
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = b7ee0628-20fd-40d4-8840-4c76cdc27200
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1920:140
+      size = 956, 1037
+      title = ferngiov@u284e3238e45c58: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = pc_default
+      type = Terminal
+      uuid = b7ee0628-20fd-40d4-8840-4c76cdc27200
+  [[ohyeah]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = dcf6bef5-be7b-4be8-9911-692d256f0360
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:236
+      size = 956, 1037
+      title = ferngiov@u284e3238e45c58: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 271
+      ratio = 0.284963196635
+      type = HPaned
+    [[[child10]]]
+      order = 0
+      parent = child9
+      position = 847
+      ratio = 0.820736434109
+      type = VPaned
+    [[[child13]]]
+      order = 1
+      parent = child9
+      position = 247
+      ratio = 0.239341085271
+      type = VPaned
+    [[[child16]]]
+      fullscreen = False
+      last_active_window = False
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1920:20
+      size = 1076, 1877
+      title = ferngiov@u284e3238e45c58: ~
+      type = Window
+    [[[child17]]]
+      active_page = 0
+      labels = None, None, None
+      last_active_term = 1f6de2a9-b7eb-4561-94b1-378c823f15c7, 53fd1a95-1a7e-4bc3-890b-84a266eea152, 7f49672e-2b44-471d-b70e-51c9fa93df4a
+      order = 0
+      parent = child16
+      type = Notebook
+    [[[child18]]]
+      order = 0
+      parent = child17
+      position = 594
+      ratio = 0.555659494855
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 613
+      ratio = 0.593992248062
+      type = VPaned
+    [[[child21]]]
+      order = 1
+      parent = child17
+      position = 536
+      ratio = 0.501403180543
+      type = HPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 107
+      ratio = 0.175986842105
+      type = VPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 226
+      ratio = 0.84962406015
+      type = HPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 369
+      ratio = 0.544247787611
+      type = HPaned
+    [[[terminal11]]]
+      order = 0
+      parent = child10
+      profile = laptop_default
+      type = Terminal
+      uuid = dcf6bef5-be7b-4be8-9911-692d256f0360
+    [[[terminal12]]]
+      order = 1
+      parent = child10
+      profile = laptop_default
+      type = Terminal
+      uuid = 196c827f-47d3-465a-9214-06a76bba4c6c
+    [[[terminal14]]]
+      order = 0
+      parent = child13
+      profile = laptop_default
+      type = Terminal
+      uuid = bb174220-a53b-4ed4-a178-0208b1c3e8ef
+    [[[terminal15]]]
+      order = 1
+      parent = child13
+      profile = laptop_default
+      type = Terminal
+      uuid = cfb30b33-cfe7-492b-b302-db04aae13956
+    [[[terminal19]]]
+      order = 0
+      parent = child18
+      profile = dafuk
+      type = Terminal
+      uuid = 430c86f1-fee0-413c-8b45-95a4e9cf830a
+    [[[terminal20]]]
+      order = 1
+      parent = child18
+      profile = pc_default
+      type = Terminal
+      uuid = 1f6de2a9-b7eb-4561-94b1-378c823f15c7
+    [[[terminal22]]]
+      order = 0
+      parent = child21
+      profile = laptop_default
+      type = Terminal
+      uuid = b7ee0628-20fd-40d4-8840-4c76cdc27200
+    [[[terminal23]]]
+      order = 1
+      parent = child21
+      profile = dafuk
+      type = Terminal
+      uuid = 53fd1a95-1a7e-4bc3-890b-84a266eea152
+    [[[terminal24]]]
+      order = 2
+      parent = child17
+      profile = default
+      type = Terminal
+      uuid = 7f49672e-2b44-471d-b70e-51c9fa93df4a
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = pc_default
+      type = Terminal
+      uuid = 9796c168-3001-412a-b8b7-e93fa2af6869
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = dafuk
+      type = Terminal
+      uuid = aff062bc-d499-4c23-9de6-156d119d9357
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = laptop_default
+      type = Terminal
+      uuid = 61f62f7b-c011-4791-8fa9-af5318b70d46
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = pc_default
+      type = Terminal
+      uuid = 9e9c5557-3f9f-49dd-826a-741fd9b368f2
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#3b3b3b"
+    background_darkness = 0.7
+    cursor_color = "#ffffff"
+    font = DejaVu Sans Mono 9
+    foreground_color = "#ffffff"
+    palette = "#2e3436:#f35252:#4e9a06:#c4a000:#b2d4ff:#f2a2ff:#06989a:#d3d7cf:#bddd9d:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[New Profile]]
+    background_color = "#ffffff"
+    font = DejaVu Sans Mono 9
+    foreground_color = "#000000"
+    palette = "#282828:#cc241d:#98971a:#4e9a06:#08b4ff:#b16286:#689d6a:#928374:#ebdbb2:#fb4934:#458588:#458588:#0749cd:#d3869b:#8ec07c:#73d216"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[Relaxed Afterglow]]
+    background_color = "#2e3436"
+    background_darkness = 0.71
+    cursor_color = "#d9d9d9"
+    font = DejaVu Sans Mono 9
+    foreground_color = "#d9d9d9"
+    palette = "#151515:#bc5653:#909d63:#ebc17a:#939596:#b06698:#c9dfff:#d9d9d9:#636363:#bc5653:#a0ac77:#ebc17a:#7eaac7:#b06698:#acbbd0:#f7f7f7"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[again]]
+    background_color = "#2e3436"
+    background_darkness = 0.82
+    background_type = transparent
+    cursor_color = "#76ff00"
+    font = DejaVu Sans Mono 9
+    foreground_color = "#51ff00"
+    palette = "#073642:#dc322f:#e8ff49:#b58900:#7b9fb8:#d33682:#bcfffa:#eee8d5:#002b36:#cb4b16:#7db3c5:#00ffd7:#52ac9a:#6c71c4:#93a1a1:#fdf6e3"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[dafuk]]
+    background_color = "#282828"
+    background_darkness = 0.86
+    font = DejaVu Sans Mono 9
+    foreground_color = "#5bff81"
+    palette = "#282828:#ff7872:#98971a:#ffc040:#8995bc:#ff85bd:#a8d1a9:#41db65:#ffca95:#fb4934:#b8bb26:#ffffff:#83a598:#d3869b:#8ec07c:#b8ff45"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[laptop_default]]
+    background_color = "#282828"
+    background_darkness = 0.9
+    cursor_color = "#ffffff"
+    font = DejaVu Sans Mono 9
+    foreground_color = "#ffffff"
+    palette = "#000000:#ff3b3b:#00aa00:#fcaf3e:#7fa5d5:#f90bf9:#00aaaa:#b8ff45:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#5dc9c5:#93faab"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[pc_default]]
+    background_color = "#2e3436"
+    background_darkness = 0.82
+    background_type = transparent
+    cursor_color = "#eeeeec"
+    font = DejaVu Sans Mono 9
+    foreground_color = "#eeeeec"
+    login_shell = True
+    palette = "#282828:#ff86ce:#2dff92:#ffc857:#89a1a9:#ffafd4:#b0ff65:#a9a9a9:#928374:#fb4934:#17f018:#fabd2f:#6ed2ad:#f0c6d2:#2dff92:#ebdbb2"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[ssh]]
+    background_color = "#ffffff"
+    foreground_color = "#000000"
+    scrollbar_position = hidden
+    show_titlebar = False

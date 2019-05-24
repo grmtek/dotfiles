@@ -1,0 +1,21 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Dec  3 01:44:20 2018
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=fda906ea-85dc-443e-8b06-d0fc67b04d64 /             ext4    defaults        1 1
+
+
+#### 2ND HDD ####
+
+UUID=B20AEE320AEDF371 /mnt/HDD/                         ntfs    defaults        0 0
+UUID=760b004a-868b-45cf-886e-49daf098a45b /mnt/EXT4_GRM/    ext4 defaults       0 0
+
+#### EXTERNAL #####
+
+UUID=F086EAE086EAA676 /mnt/GRM_EXT/        ntfs    nofail,x-systemd.device-timeout=1    0  0
+
+
