@@ -13,7 +13,7 @@
       parent = ""
       position = 1920:140
       size = 956, 1037
-      title = ferngiov@u284e3238e45c58: ~
+      title = gio@: ~
       type = Window
     [[[terminal1]]]
       order = 0
@@ -31,7 +31,7 @@
       parent = ""
       position = 0:236
       size = 956, 1037
-      title = ferngiov@u284e3238e45c58: ~
+      title = gio@: ~
       type = Window
     [[[child1]]]
       order = 0
@@ -59,7 +59,7 @@
       parent = ""
       position = 1920:20
       size = 1076, 1877
-      title = ferngiov@u284e3238e45c58: ~
+      title = gio@: ~
       type = Window
     [[[child17]]]
       active_page = 0
@@ -238,7 +238,7 @@
     cursor_color = "#ffffff"
     font = DejaVu Sans Mono 9
     foreground_color = "#ffffff"
-    palette = "#000000:#ff3b3b:#00aa00:#fcaf3e:#7fa5d5:#f90bf9:#00aaaa:#b8ff45:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#5dc9c5:#93faab"
+    palette = "#000000:#ff3b3b:#00aa00:#fcaf3e:#7fa5d5:#f90bf9:#00aaaa:#b8ff45:#555555:#ff5555:#55ff55:#ffff55:#34aaff:#ff55ff:#5dc9c5:#93faab"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
